@@ -15,6 +15,7 @@ type Author {
     name: String!
     photo: String
 }
+
 "query to get tracks for homepage grid"
 type Query {
     tracksForHome: [Track!]!
