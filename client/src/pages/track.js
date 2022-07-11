@@ -1,7 +1,6 @@
 import {React} from 'react'
 import {gql, useQuery} from '@apollo/client'
 import {Layout, QueryResult, TrackDetail } from '../components'
-// import {TrackDetail } from '../components/track-detail'
 
 export const GET_TRACK = gql`
 query Query($trackId: ID!) {
